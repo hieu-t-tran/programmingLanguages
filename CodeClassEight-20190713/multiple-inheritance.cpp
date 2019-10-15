@@ -116,4 +116,6 @@ int main(int argn, char* argv[])
   cout << "File name is " << progAssignment.getFileName() << endl;
   cout << "Number of questions is " << progAssignment.getNumQuestions() << endl;
   
+  progAssignment.setPoints(8, 20);
+  cout << "Question number 8 is worth " << progAssignment.getPoints(8) << endl;
 }
