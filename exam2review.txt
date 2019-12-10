@@ -64,4 +64,3 @@ precedence/associative
 	a+b*c a+(b*c) or (a+b)*c precedence
 terminals/nonterminals
 token vs lexeme
-
